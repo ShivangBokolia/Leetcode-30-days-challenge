@@ -21,7 +21,6 @@ def moveZeroes(nums):
                     nums[i] = nums[j]
                     nums[j] = temp
                     break
-
     return nums
 
 
