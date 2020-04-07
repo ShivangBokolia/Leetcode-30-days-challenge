@@ -8,7 +8,6 @@
 #             maxEnd = 0
 #         elif maxSoFar < maxEnd:
 #             maxSoFar = maxEnd
-#
 #     return maxSoFar
 
 """ This code will work if all the elements of the array are negative """
