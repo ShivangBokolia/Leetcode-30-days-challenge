@@ -5,6 +5,7 @@ def singleNumber(nums):
             dic[i] += 1
         else:
             dic[i] = 1
+            
     for j in dic:
         if dic[j] == 1:
             return j
