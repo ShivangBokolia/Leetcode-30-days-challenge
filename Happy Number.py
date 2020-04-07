@@ -4,10 +4,13 @@ def isHappy(n):
         digit = n % 10
         n = int(n / 10)
         totalsquare += digit ** 2
+        
     if totalsquare == 1 or totalsquare == 7:
         return True
+    
     if totalsquare < 10:
         return False
+    
     return isHappy(totalsquare)
 
 if __name__ == '__main__':
