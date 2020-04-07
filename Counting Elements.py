@@ -10,5 +10,6 @@ def countElements(arr):
             count += 1
     return count
 
+
 if __name__ == '__main__':
     print(countElements([1, 1, 2, 2]))
